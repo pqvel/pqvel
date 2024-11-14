@@ -27,38 +27,33 @@ npx anmol
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
 ```javascript
-const anmol = {
-    pronouns: "He" | "Him",
-    code: ["TypeScript", "Javascript", "Python", "Dart"],
+const userInfo = {
+    code: ["TypeScript", "Javascript"],
     askMeAbout: ["web dev", "app dev", "cloud computing", "UI/UX", "tech trends"],
     technologies: {
         frontEnd: {
-            js: ["React", "Next.js"],
-            css: ["Sass", "Tailwind", "Bootstrap"],
-            uiLibraries: ["Material UI", "Ant Design", "Chakra UI"],
+            js: ["React", "Next.js", "Vue", "Stimulus"],
+            css: ["SASS", "Tailwind", "Bootstrap"],
+            uiLibraries: ["Material UI", "Ant Design", "Shadcn UI"],
         },
         backEnd: {
-            js: ["Node", "Express", "NestJS"],
-            python: ["Flask"],
+            js: ["Node", "Express"],
         },
         mobileApp: {
-            crossPlatform: ["Flutter"],
+            crossPlatform: ["React Native"],
         },
-        devOps: ["Docker🐳", "CI/CD", "Nginx", "GitHub Actions"],
+        devOps: ["Docker🐳", "CI/CD", "Nginx", "GitHub Actions", "Linux"],
         cloudServices: {
-            aws: ["AWS Fargate", "EC2", "S3", "Lambda", "CloudWatch", "RDS"],
+            aws: ["S3"],
         },
-        databases: ["PostgreSQL", "MongoDB", "SQLite", "Firebase Realtime DB", "redis"],
+        databases: ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
         misc: ["Socket.IO", "REST APIs", "WebSockets", "Cloud Functions"],
-        generativeAI: ["GPT", "Vectorization"],
     },
     architecture: {
-        frontEnd: ["SPA", "SSR"],
+        frontEnd: ["SPA", "SSR", "MVC"],
         backEnd: ["microservices", "monolithic", "serverless"],
         devOps: ["CloudFormation", "Serverless Framework"],
-        databases: ["Relational", "NoSQL", "In-memory"],
+        databases: ["Relational", "NoSQL"],
     },
-    currentFocus: "Leading a way in generative AI innovation",
-    funFact: "I can debug faster with a coffee in hand!"
 };
 ```
